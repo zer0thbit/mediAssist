@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/mediAssist/static/css/main.67114fbc.css",
+    "main.css": "/mediAssist/static/css/main.ef4ba6d6.css",
     "main.js": "/mediAssist/static/js/main.48a231c6.js",
     "static/js/787.0420ccf9.chunk.js": "/mediAssist/static/js/787.0420ccf9.chunk.js",
     "static/media/Rectangle 6@3x.png": "/mediAssist/static/media/Rectangle 6@3x.5dd6f74413c30a57b2f2.png",
@@ -36,12 +36,12 @@
     "static/media/Garry.png": "/mediAssist/static/media/Garry.4c19295c2967f73226ef.png",
     "static/media/mike.png": "/mediAssist/static/media/mike.4bfffe9bcf522f288dd3.png",
     "index.html": "/mediAssist/index.html",
-    "main.67114fbc.css.map": "/mediAssist/static/css/main.67114fbc.css.map",
+    "main.ef4ba6d6.css.map": "/mediAssist/static/css/main.ef4ba6d6.css.map",
     "main.48a231c6.js.map": "/mediAssist/static/js/main.48a231c6.js.map",
     "787.0420ccf9.chunk.js.map": "/mediAssist/static/js/787.0420ccf9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.67114fbc.css",
+    "static/css/main.ef4ba6d6.css",
     "static/js/main.48a231c6.js"
   ]
 }
