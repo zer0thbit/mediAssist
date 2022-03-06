@@ -20,20 +20,8 @@
   
   .back {
     color: #707070;
-    font-size: 50px;
+    font-size: 40px;
     cursor: pointer;
   }
-  .back::before {
-    content: "_";
-    position: absolute;
-    top: -34.5px;
-    left: 26.5px;
-  }
-  
-  .back::after {
-    content: "_";
-    position: absolute;
-    top: -22.5px;
-    left: 26.5px;
-  }
+ 
   

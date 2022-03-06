@@ -1,4 +1,5 @@
 import "./Navbar.css";
+import { Icon } from '@iconify/react';
 
 const Navbar = ({ data, handleProfile }) => {
     return (
@@ -12,7 +13,7 @@ const Navbar = ({ data, handleProfile }) => {
                 </>
             ) : (
                 <div className="back" onClick={() => handleProfile("")}>
-                    &larr;
+                    <Icon icon="mdi:backburger" />
                 </div>
             )}
         </header>
