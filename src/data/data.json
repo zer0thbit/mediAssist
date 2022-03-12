@@ -1,87 +1,86 @@
 [
-    {
-      "name": "Alice",
-      "age": 23,
-      "location": "Saint Petersburg, Russia",
-      "occupation": "Photographer",
-      "rate": 500,
-      "rating": 4,
-      "cardColor": "#FFE6E6",
-      "image": "alice",
-      "starColor": ["#FF5151", "#FF5151", "#FF5151", "#FF5151", "#FF5151"],
-      "about": "Photography is an austere and blazing poetry of the real. Photography is both, a skill and a talent. Photography is a trained skill: You must learn about optics, composition, metering, photo treatment, themes, gear, business (the list may never end)"
-    },
-    {
-      "name": "Mike",
-      "age": 23,
-      "location": "Saint Petersburg, Russia",
-      "occupation": "Photographer",
-      "rate": 150,
-      "rating": 3,
-      "cardColor": "#FFE6F8",
-      "image": "mike",
-      "starColor": ["#FF7DDB", "#FF7DDB", "#FF7DDB", "#FF7DDB", "#FF7DDB"],
-      "about": "Photography is an austere and blazing poetry of the real. Photography is both, a skill and a talent. Photography is a trained skill: You must learn about optics, composition, metering, photo treatment, themes, gear, business (the list may never end)"
-    },
-    {
-      "name": "Amy",
-      "age": 23,
-      "location": "Saint Petersburg, Russia",
-      "occupation": "Photographer",
-      "rate": 250,
-      "rating": 4,
-      "cardColor": "#FFF8E6",
-      "image": "amy",
-      "starColor": ["#FFCB47", "#FFCB47", "#FFCB47", "#FFCB47", "#FFCB47"],
-      "about": "Photography is an austere and blazing poetry of the real. Photography is both, a skill and a talent. Photography is a trained skill: You must learn about optics, composition, metering, photo treatment, themes, gear, business (the list may never end)"
-    },
-    {
-      "name": "Liz",
-      "age": 21,
-      "location": "Saint Petersburg, Russia",
-      "occupation": "Photographer",
-      "rate": 200,
-      "rating": 4,
-      "cardColor": "#EAFFE6",
-      "image": "liz",
-      "starColor": ["#65EA4C", "#65EA4C", "#65EA4C", "#65EA4C", "#65EA4C"],
-      "about": "Photography is an austere and blazing poetry of the real. Photography is both, a skill and a talent. Photography is a trained skill: You must learn about optics, composition, metering, photo treatment, themes, gear, business (the list may never end)"
-    },
-    {
-      "name": "Tom",
-      "age": 23,
-      "location": "Saint Petersburg, Russia",
-      "occupation": "Photographer",
-      "rate": 600,
-      "rating": 4,
-      "cardColor": "#E6EFFF",
-      "image": "tom",
-      "starColor": ["#6CA0FD", "#6CA0FD", "#6CA0FD", "#6CA0FD", "#6CA0FD"],
-      "about": "Photography is an austere and blazing poetry of the real. Photography is both, a skill and a talent. Photography is a trained skill: You must learn about optics, composition, metering, photo treatment, themes, gear, business (the list may never end)"
-    },
-    {
-      "name": "Garry",
-      "age": 23,
-      "location": "Saint Petersburg, Russia",
-      "occupation": "Photographer",
-      "rate": 200,
-      "rating": 4,
-      "cardColor": "#E6F8FF",
-      "image": "Garry",
-      "starColor": ["#51CEFF", "#51CEFF", "#51CEFF", "#51CEFF", "#51CEFF"],
-      "about": "Photography is an austere and blazing poetry of the real. Photography is both, a skill and a talent. Photography is a trained skill: You must learn about optics, composition, metering, photo treatment, themes, gear, business (the list may never end)"
-    },
-    {
-      "name": "Melody",
-      "age": 23,
-      "location": "Saint Petersburg, Russia",
-      "occupation": "Photographer",
-      "rate": 100,
-      "rating": 4,
-      "cardColor": "#FFE6F1",
-      "image": "melody",
-      "starColor": ["#FF69AB", "#FF69AB", "#FF69AB", "#FF69AB", "#FF69AB"],
-      "about": "Photography is an austere and blazing poetry of the real. Photography is both, a skill and a talent. Photography is a trained skill: You must learn about optics, composition, metering, photo treatment, themes, gear, business (the list may never end)"
-    }
-  ]
-  
+  {
+    "name": "Alice",
+    "age": 23,
+    "location": "Saint Petersburg, Russia",
+    "occupation": "Photographer",
+    "rate": 500,
+    "rating": 4,
+    "cardColor": "#FFE6E6",
+    "image": "alice",
+    "starColor": "#FF5151",
+    "about": "Photography is an austere and blazing poetry of the real. Photography is both, a skill and a talent. Photography is a trained skill: You must learn about optics, composition, metering, photo treatment, themes, gear, business (the list may never end)"
+  },
+  {
+    "name": "Mike",
+    "age": 23,
+    "location": "Saint Petersburg, Russia",
+    "occupation": "Photographer",
+    "rate": 150,
+    "rating": 3,
+    "cardColor": "#FFE6F8",
+    "image": "mike",
+    "starColor": "#FF7DDB",
+    "about": "Photography is an austere and blazing poetry of the real. Photography is both, a skill and a talent. Photography is a trained skill: You must learn about optics, composition, metering, photo treatment, themes, gear, business (the list may never end)"
+  },
+  {
+    "name": "Amy",
+    "age": 23,
+    "location": "Saint Petersburg, Russia",
+    "occupation": "Photographer",
+    "rate": 250,
+    "rating": 4,
+    "cardColor": "#FFF8E6",
+    "image": "amy",
+    "starColor": "#FFCB47",
+    "about": "Photography is an austere and blazing poetry of the real. Photography is both, a skill and a talent. Photography is a trained skill: You must learn about optics, composition, metering, photo treatment, themes, gear, business (the list may never end)"
+  },
+  {
+    "name": "Liz",
+    "age": 21,
+    "location": "Saint Petersburg, Russia",
+    "occupation": "Photographer",
+    "rate": 200,
+    "rating": 4,
+    "cardColor": "#EAFFE6",
+    "image": "liz",
+    "starColor": "#65EA4C",
+    "about": "Photography is an austere and blazing poetry of the real. Photography is both, a skill and a talent. Photography is a trained skill: You must learn about optics, composition, metering, photo treatment, themes, gear, business (the list may never end)"
+  },
+  {
+    "name": "Tom",
+    "age": 23,
+    "location": "Saint Petersburg, Russia",
+    "occupation": "Photographer",
+    "rate": 600,
+    "rating": 4,
+    "cardColor": "#E6EFFF",
+    "image": "tom",
+    "starColor": "#6CA0FD",
+    "about": "Photography is an austere and blazing poetry of the real. Photography is both, a skill and a talent. Photography is a trained skill: You must learn about optics, composition, metering, photo treatment, themes, gear, business (the list may never end)"
+  },
+  {
+    "name": "Garry",
+    "age": 23,
+    "location": "Saint Petersburg, Russia",
+    "occupation": "Photographer",
+    "rate": 200,
+    "rating": 4,
+    "cardColor": "#E6F8FF",
+    "image": "Garry",
+    "starColor": "#51CEFF",
+    "about": "Photography is an austere and blazing poetry of the real. Photography is both, a skill and a talent. Photography is a trained skill: You must learn about optics, composition, metering, photo treatment, themes, gear, business (the list may never end)"
+  },
+  {
+    "name": "Melody",
+    "age": 23,
+    "location": "Saint Petersburg, Russia",
+    "occupation": "Photographer",
+    "rate": 100,
+    "rating": 4,
+    "cardColor": "#FFE6F1",
+    "image": "melody",
+    "starColor": "#FF69AB",
+    "about": "Photography is an austere and blazing poetry of the real. Photography is both, a skill and a talent. Photography is a trained skill: You must learn about optics, composition, metering, photo treatment, themes, gear, business (the list may never end)"
+  }
+]

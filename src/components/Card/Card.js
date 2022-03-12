@@ -1,38 +1,40 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./Card.css";
-import Data from "../data/data.json";
+import Data from "../../data/data.json";
 import { motion } from "framer-motion";
 
 const Card = (props) => {
+    const [userData, setUserData] = useState([])
     const handleCardClick = (data) => {
         props.handleProfile(data);
     };
 
     const RatingContainer = ({ starColor, rating }) => {
-        const ratings = starColor.map((ele, index) => {
-            if (index < rating) {
-                return (
-                    <i
-                        key={index + "star"}
-                        className="fa fa-star"
-                        style={{ color: `${ele}` }}
-                    />
-                );
-            }
-            return (
-                <i
-                    key={index + "star"}
-                    className="fa fa-star-o"
-                    style={{ color: `${ele}` }}
-                />
-            );
-        });
+        const ratings = [];
+        for (let i = 0; i < 5; i++) {
+
+            ratings.push(<i key={i + "star"}
+                className={`${i < rating ? "fa fa-star" : "fa fa-star-o"}`}
+                style={{ color: `${starColor}` }}
+            />)
+
+        }
+
         return ratings;
     };
 
+    useEffect(() => {
+        let data = [...Data];
+
+        data = data.filter(ele => ele?.name.toLowerCase() === props?.filterText.toLowerCase());
+
+        setUserData(data.length !== 0 ? data : Data);
+
+    }, [props.filterText])
+
     return (
         <motion.ul className="cards">
-            {Data.map((ele, index) => (
+            {userData.map((ele, index) => (
                 <motion.li
                     initial={{ y: 300, opacity: 0 }}
                     animate={{ y: 60, opacity: 1 }}
@@ -49,7 +51,7 @@ const Card = (props) => {
                     <div className="photo-name">
                         <div className="photo">
                             <img
-                                src={require(`../assets/${ele.image}/${ele.image}.png`)}
+                                src={require(`../../assets/${ele.image}/${ele.image}.png`)}
                                 alt={`${ele.name}`}
                             />
                         </div>

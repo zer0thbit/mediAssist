@@ -1,6 +1,6 @@
 import "./Profile.css";
 import { motion } from "framer-motion";
-import Images from "./images";
+import Images from "../images";
 import { useState, useRef, useEffect } from "react";
 
 const Profile = ({ data }) => {
@@ -15,24 +15,15 @@ const Profile = ({ data }) => {
     }, []);
 
     const RatingContainer = ({ starColor, rating }) => {
-        const ratings = starColor.map((ele, index) => {
-            if (index < rating) {
-                return (
-                    <i
-                        key={index + "star"}
-                        className="fa fa-star"
-                        style={{ color: `${ele}` }}
-                    />
-                );
-            }
-            return (
-                <i
-                    key={index + "star"}
-                    className="fa fa-star-o"
-                    style={{ color: `${ele}` }}
-                />
-            );
-        });
+        const ratings = [];
+        for (let i = 0; i < 5; i++) {
+
+            ratings.push(<i key={i + "star"}
+                className={`${i < rating ? "fa fa-star" : "fa fa-star-o"}`}
+                style={{ color: `${starColor}` }}
+            />)
+
+        }
 
         return ratings;
     };
@@ -73,7 +64,7 @@ const Profile = ({ data }) => {
                         animate={{ x: 0, y: 0, scale: 1 }}
                         transition={{ duration: 1 }}
                         className="profile-photo"
-                        src={require(`../assets/${data.image}/${data.image}@3x.png`)}
+                        src={require(`../../assets/${data.image}/${data.image}@3x.png`)}
                         alt={`${data.name}`}
                     />
                 </div>

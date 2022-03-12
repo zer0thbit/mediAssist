@@ -1,7 +1,9 @@
 import "./Navbar.css";
+import SearchBar from "../SearchBar/SearchBar";
 import { Icon } from '@iconify/react';
 
-const Navbar = ({ data, handleProfile }) => {
+const Navbar = ({ data, handleProfile, handleFilterText }) => {
+
     return (
         <header className="header">
             {data === "" ? (
@@ -10,6 +12,7 @@ const Navbar = ({ data, handleProfile }) => {
                         <i className="fa fa-bars" />
                     </div>
                     <div className="logo">Logo</div>
+                    <SearchBar handleFilterText={handleFilterText} />
                 </>
             ) : (
                 <div className="back" onClick={() => handleProfile("")}>

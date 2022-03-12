@@ -3,11 +3,12 @@
 }
 .App {
   box-sizing: border-box;
-  width: 100%;
   max-width: 428px;
+  width: 100%;
   margin: 0 auto;
   box-shadow: 0.5px 0.5px 5px 0.5px rgb(223, 223, 223);
   overflow-y: scroll;
+  height: 100vh;
 }
 
 .App::-webkit-scrollbar {
